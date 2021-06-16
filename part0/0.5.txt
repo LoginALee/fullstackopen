@@ -1,0 +1,9 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
+server-->browser: CSS-code
+server-->browser: JS-code
+note over browser:
+browser receives js-file with a form in it 
+but the form does not have a path or method to send it
+the js file has a function that takes care of it later on
+end note

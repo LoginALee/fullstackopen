@@ -1,0 +1,7 @@
+browser->server: HTTP POST [{ note: "Some text" }, ...] https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
+note over browser:
+browser starts executing js-code
+that pushes the note in the DOM 
+and sends it later to the server
+end note
